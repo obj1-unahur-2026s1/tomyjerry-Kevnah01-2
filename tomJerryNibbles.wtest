@@ -18,12 +18,12 @@ describe "Test del escenario" {
   test "Si corre 24 metros, entonces su velocidad máxima pasa a ser 14" {
     tom.comer(jerry)
     tom.correr(24)
-    assert.equals(14,tom.velocidad()) // Es correcto si da FALSE
+    assert.equals(14,tom.velocidad()) 
   }
    test "Si corre 24 metros,su energía es 90 " {
     tom.comer(jerry)
     tom.correr(24)
-    assert.equals(90,tom.energia()) // Es correcto si da FALSE
+    assert.equals(90,tom.energia()) 
   }
   test "Si come a Nibbles, pasa a tener de velocidad máxima 18.7" {
     tom.comer(jerry)
